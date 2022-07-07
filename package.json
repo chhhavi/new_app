@@ -1,0 +1,34 @@
+{
+    "name": "data-driven-forms-introduction-example",
+    "version": "1.0.0",
+    "description": "A short example of the declarative React forms library Data Driven forms.",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+        "@data-driven-forms/mui-component-mapper": "3.16.9",
+        "@data-driven-forms/react-form-renderer": "3.16.9",
+        "@mui/material": "5.4.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-scripts": "^4.0.0"
+    },
+    "devDependencies": {
+        "@babel/runtime": "7.13.8",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.5",
+        "typescript": "4.1.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
